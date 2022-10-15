@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+
+           
+          
+        }
+
+       li a{
+        text-decoration: none;
+        color:gray;
+       }
+       ul{
+        list-style: none;
+        text-align: center;
+       }
+
+       nav{
+        width:100%;
+        background: #f2eef9;
+        margin:40px auto;
+
+       }
+       span{
+        padding:30px;
+        background: #2d2f31;
+        color:white;
+        font-size: 50px;
+        font-variant: small-caps;
+        cursor: pointer;
+        display: block;
+        width: 96%;
+        margin-left: 0px;
+        box-shadow: 0px 0px 5px 5px gray;
+        
+
+        
+       }
+      
+   
+       .slide{
+        background:linear-gradient(white,cyan);
+        box-shadow: 0px 0px 5px 5px gray;
+       }
+       .slide:hover{
+
+        clear:both;
+        width:100%;
+        height: none;
+        overflow: hidden;
+        text-align: left;
+     
+        animation: slide 5s  ;
+        animation-duration: 1;
+        font-size: 50px;
+        font-weight: bold;
+        animation-direction: linear;
+        text-align: center;
+      
+  
+       
+    
+       }
+        
+       @keyframes slide {
+        from{
+            height: 50px;
+        width: 100%;
+
+        }
+        to{
+            height: 300px;
+        width: 100%;
+
+        }
+        
+       }
+       .slide li{
+        padding:20px;
+
+       }
+    
+     
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <label for="touch"><a href=""><Span>Courses</Span></a></label>
+       
+        <ul class="slide">
+            <li><a href="">About_Us</a></li>
+            <li><a href="">Follow_US</a></li>
+            <li><a href="">Contact_Us</a></li>
+            <li><a href="">Feedack_US</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
